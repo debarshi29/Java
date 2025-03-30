@@ -1,0 +1,13 @@
+How this mimics MapReduce:
+Mapper: For each document, it emits key-value pairs for each word.
+
+Shuffle and Sort: We group the key-value pairs by their keys (words).
+
+Reducer: It sums the values (occurrences) of each word, producing the final word count.
+
+This is a basic simulation of the MapReduce concept in Java without using Hadoop. In a real-world Hadoop implementation, 
+the framework would handle the shuffling, sorting, and partitioning of data across distributed nodes.
+
+
+to run the word count driver: 
+java WordCountDriver input.txt output.txt

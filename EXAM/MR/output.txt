@@ -1,0 +1,14 @@
+a : 1
+some : 1
+test : 1
+this : 2
+several : 1
+words : 2
+is : 1
+repeated : 1
+contains : 1
+world : 1
+file : 2
+are : 1
+and : 1
+hello : 1
